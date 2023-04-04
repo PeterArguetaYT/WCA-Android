@@ -14,6 +14,11 @@ Las graficas que genera este programa son:
 
 ## Mapa de palabras
 
+
+![!Mapa_palabra](https://github.com/PeterArguetaYT/WCA-Android/raw/main/02_mapa_palabra.png)
+
+
+
 ## Mensajes enviados por semana
 
 ## Hora de los mensajes
