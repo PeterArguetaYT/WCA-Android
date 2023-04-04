@@ -1,0 +1,24 @@
+01/01/23 10:00 -  Usuario1: ¡Feliz año nuevo! ¿Cómo estás?
+01/01/23 10:05 -  Usuario2: ¡Feliz año nuevo, -  Usuario1! Estoy bien, gracias. ¿Y tú?
+01/01/23 10:10 -  Usuario1: Estoy bien también. ¿Qué planes tienes para hoy?
+01/01/23 10:15 -  Usuario2: Hoy voy a tener una reunión familiar. ¿Tú qué planes tienes?
+01/01/23 10:20 -  Usuario1: Pues, hoy voy a hacer una caminata con unos amigos en la montaña. ¿Te g-  Ustaría venir con nosotros la próxima vez?
+01/01/23 10:25 -  Usuario2: ¡Claro! Me encantaría hacer una caminata contigo. Avísame la próxima vez que vayas.
+03/01/23 11:00 -  Usuario1: Hola, ¿qué tal? ¿Te g-  Ustaría ir a hacer la caminata con nosotros este fin de semana?
+03/01/23 11:05 -  Usuario2: Hola, -  Usuario1. Sí, me encantaría ir contigo. ¿A qué hora y en dónde será?
+03/01/23 11:10 -  Usuario1: Será el sábado a las 8 de la mañana en el parque. ¿Te parece bien?
+03/01/23 11:15 -  Usuario2: Sí, perfecto. Allí estaré.
+05/01/23 8:00 -  Usuario1: Hola, ya llegamos al parque. ¿Dónde estás?
+05/01/23 8:05 -  Usuario2: Hola, todavía estoy en casa. Saldré en unos minutos.
+05/01/23 8:10 -  Usuario1: Vale, no hay problema. Nosotros estaremos en la entrada principal del parque.
+05/01/23 8:15 -  Usuario2: De acuerdo, en unos 20 minutos estaré allí.
+05/01/23 8:30 -  Usuario2: Hola, llegué. ¿Ya están todos aquí?
+05/01/23 8:35 -  Usuario1: Sí, aquí estamos. Ven, siéntate con nosotros. ¿Estás listo para la caminata?
+05/01/23 8:40 -  Usuario2: ¡Sí! Estoy emocionado de empezar.
+06/01/23 12:00 -  Usuario1: Hola, ¿cómo estás? ¿Te g-  Ustaría ir al cine este fin de semana?
+06/01/23 12:05 -  Usuario2: Hola -  Usuario1, estoy bien, gracias. ¿Y tú? Sí, me encantaría ir al cine contigo. ¿Qué película quieres ver?
+06/01/23 12:10 -  Usuario1: ¿Qué tal "Spider-Man: Sin Camino a Casa"?
+06/01/23 12:15 -  Usuario2: ¡Genial! He escuchado que es muy buena. ¿A qué hora y en qué cine será?
+06/01/23 12:20 -  Usuario1: Será el domingo a las 5 de la tarde en el cine del centro comercial. ¿Te parece bien?
+06/01/23 12:25 -  Usuario2: Sí, perfecto. Allí estaré.
+06/01/23 12:25 -  Usuario2: <Multimedia omitido>
