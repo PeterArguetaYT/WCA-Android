@@ -7,7 +7,7 @@ El archivo de entrada debe llamarse chat.txt, este debe de exportarlo desde el c
 
 ### Estructura del archivo de entrada ###
 
-As of version 2.0.0, _Subtitles_ outputs its CSS via `wp_head`. This is to load sensible CSS that will ensure your subtitle is always scaled properly alongside your website title and never shown in comment areas.
+Esta es la estructura del archivo `chat.txt`. Regularmente es la estructura del archivo en texto plano que generan los telefonos android, puede cambiar el formato de fecha, por ejemplo 31/12/23 a 31.12.23 si tiene un cambio así tiene que modificar el código en el formato del datetime. 
 
 ```
 
