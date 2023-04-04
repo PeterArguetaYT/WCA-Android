@@ -5,43 +5,20 @@
 El archivo de entrada debe llamarse chat.txt, este debe de exportarlo desde el chat que quiere analizar. 
 
 
-### Front-End Performance ###
+### Estructura del archivo de entrada ###
 
 As of version 2.0.0, _Subtitles_ outputs its CSS via `wp_head`. This is to load sensible CSS that will ensure your subtitle is always scaled properly alongside your website title and never shown in comment areas.
 
-```css
-/**
- * Plugin Name: Subtitles
- * Plugin URI: http://wordpress.org/plugins/subtitles/
- * Description: Easily add subtitles into your WordPress posts, pages, custom post types, and themes.
- * Author: We Cobble
- * Author URI: https://wecobble.com/
- * Version: 2.1.1
- * License: GNU General Public License v2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- */
+```
 
-/**
- * Be explicit about this styling only applying to spans,
- * since that's the default markup that's returned by
- * Subtitles. If a developer overrides the default subtitles
- * markup with another element or class, we don't want to stomp
- * on that.
- *
- * @since 1.0.0
- */
-span.entry-subtitle {
-	display: block; /* Put subtitles on their own line by default. */
-	font-size: 0.53333333333333em; /* Sensible scaling. It's assumed that post titles will be wrapped in heading tags. */
-}
-/**
- * If subtitles are shown in comment areas, we'll hide them by default.
- *
- * @since 1.0.5
- */
-#comments .comments-title span.entry-subtitle {
-	display: none;
-}
+01/01/23 10:00 -  Usuario1: ¡Feliz año nuevo! ¿Cómo estás?
+01/01/23 10:05 -  Usuario2: ¡Feliz año nuevo, -  Usuario1! Estoy bien, gracias. ¿Y tú?
+01/01/23 10:10 -  Usuario1: Estoy bien también. ¿Qué planes tienes para hoy?
+01/01/23 10:15 -  Usuario2: Hoy voy a tener una reunión familiar. ¿Tú qué planes tienes?
+01/01/23 10:20 -  Usuario1: Pues, hoy voy a hacer una caminata con unos amigos en la montaña. ¿Te g-  Ustaría venir con nosotros la próxima vez?
+01/01/23 10:25 -  Usuario2: ¡Claro! Me encantaría hacer una caminata contigo. Avísame la próxima vez que vayas.
+03/01/23 11:00 -  Usuario1: Hola, ¿qué tal? ¿Te g-  Ustaría ir a hacer la caminata
+
 ```
 
 
