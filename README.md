@@ -9,7 +9,7 @@ Las grafiacas que genera este programa son:
 
 #Mensajes enviados por cada usuario
 
-!mensajes_enviados_por usuario(https://github.com/PeterArguetaYT/WCA-Android/blob/main/01_msj_enviados_usuario.png)
+[!mensajes_enviados_por usuario](https://github.com/PeterArguetaYT/WCA-Android/blob/main/01_msj_enviados_usuario.png)
 
 #Mapa de palabras
 
