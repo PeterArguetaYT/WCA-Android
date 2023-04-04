@@ -6,18 +6,18 @@ El archivo de entrada debe llamarse chat.txt, este debe de exportarlo desde el c
 
 Las graficas que genera este programa son: 
 
-### Mensajes enviados por cada usuario
+## Mensajes enviados por cada usuario
 
 
 ![!mensajes_enviados_por usuario](https://github.com/PeterArguetaYT/WCA-Android/raw/main/01_msj_enviados_usuario.png)
 
 
-### Mapa de palabras
+## Mapa de palabras
 
-### Mensajes enviados por semana
+## Mensajes enviados por semana
 
-### Hora de los mensajes
+## Hora de los mensajes
 
-### Multimedia enviada
+## Multimedia enviada
 
-#### Promedio de mensajes diarios
+## Promedio de mensajes diarios
