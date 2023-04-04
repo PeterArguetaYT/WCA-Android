@@ -9,11 +9,11 @@ Las grafiacas que genera este programa son:
 
 #Mensajes enviados por cada usuario
 
-[!mensajes_enviados_por usuario](01_msj_enviados_usuario.png)
+[!mensajes_enviados_por usuario](https://github.com/PeterArguetaYT/WCA-Android/raw/main/01_msj_enviados_usuario.png)
 
 #Mapa de palabras
 
-!mapa_palabras(https://github.com/PeterArguetaYT/WCA-Android/blob/main/02_mapa_palabra.png)
+!mapa_palabras
 
 #Mensajes enviados por semana
 !3(https://github.com/PeterArguetaYT/WCA/blob/main/03_msj_enviados_por_semana.png)
