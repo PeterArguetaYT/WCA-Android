@@ -14,7 +14,7 @@ messages =[]
 with open(filename, "r") as file:
     for line in file:
         # Buscar el patrón de fecha y hora
-        pattern = r"^(.\d{1,2}.\d{1,2}.\d{2,4},?\s\d{1,2}.*\d{2}) - (.+?): (.*)$"
+        pattern = r"^(.\d{0,2}.\d{1,2}.\d{2,4},?\s\d{1,2}.*\d{2}) - (.+?): (.*)$"
         match = re.match(pattern, line)
         if match:
             # Extraer los elementos de la línea
@@ -35,7 +35,6 @@ with open(filename, "r") as file:
 
 df = pd.DataFrame(messages)
 
-
 #01
 ###################################################################################################
  # group messages by user and count the number of messages
@@ -50,7 +49,7 @@ ax.set_title('Mensajes enviados por usuario')
 ax.set_ylabel('Número de mensajes')
 
 # rotate x-axis labels horizontally
-ax.tick_params(axis='x', rotation=0)
+ax.tick_params(axis='x', rotation=90)
 # display a horizontal grid
 ax.yaxis.grid(True)
 fig.savefig('01_msj_enviados_usuario.png', dpi=300, bbox_inches='tight')
@@ -107,7 +106,6 @@ ax.tick_params(axis='x', rotation=45)
 
 fig.savefig('03_msj_enviados_por_semana.png', dpi=300, bbox_inches='tight')
 
-
 ###################################################################################################
 
 #04
@@ -126,7 +124,6 @@ ax1.set_xlabel('Hora del día')
 ax1.set_ylabel('Número de mensajes')
 ax1.set_title('Número de mensajes por hora del día y usuario')
 
-# Mostrar la gráfica
 fig1.savefig('04_hora_de_los_msj.png', dpi=300, bbox_inches='tight')
 
 ###################################################################################################
@@ -157,21 +154,26 @@ fig2.savefig('05_multimedia.png', dpi=300, bbox_inches='tight')
 # Agregar una columna con la fecha sin la hora
 df['FECHA_DIA'] = df['FECHA_DATETIME'].dt.date
 
+
 # Contar los mensajes por usuario y por día
-daily_counts = df.groupby(['USUARIO', 'FECHA_DIA']).count()['MENSAJE']
+#daily_counts = df.groupby(['USUARIO', 'FECHA_DIA']).count()['MENSAJE']
 
-# Calcular el promedio de mensajes diarios por usuario
-avg_daily_counts = daily_counts.groupby('USUARIO').mean()
+total_message_users = df.groupby(['USUARIO'])['MENSAJE'].count()
+total_count_time = len(df['FECHA_DIA'].unique())
 
-# Crear una gráfica de barras para mostrar los promedios
+#print(total_message_users)
+#print(total_count_time)
+
+average=total_message_users/total_count_time
 fig, ax = plt.subplots()
-ax.bar(avg_daily_counts.index, avg_daily_counts.values, color=['pink','navy'], alpha=0.7)
-
+ax.bar(average.index, average.values, color=['pink','navy'], alpha=0.7)
 # Personalizar los ejes y agregar un título
 ax.set_xlabel('Usuario')
 ax.set_ylabel('Promedio de mensajes diarios')
 ax.set_title('Promedio de mensajes diarios por usuario')
+ax.tick_params(axis='x', rotation=90)
 
 # Mostrar la gráfica
 
-fig.savefig('06_promedio_msj_diarios.png', dpi=300, bbox_inches='tight')  
+fig.savefig('06_promedio_msj_diarios.png', dpi=300, bbox_inches='tight')
+
