@@ -5,10 +5,14 @@
 
 ##Bibliotecas##
 
-´´´
-pandas, wordcloud, re
-´´´
 
+```
+pandas
+wordcloud
+re
+matplotlib
+
+```
 
 El archivo de entrada debe llamarse chat.txt, este debe de exportarlo desde el chat que quiere analizar. 
 
