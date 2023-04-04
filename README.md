@@ -1,6 +1,6 @@
 # WCA
 
-Programa que permite analizar la conversación de whatsapp.
+## Programa que permite analizar la conversación de whatsapp.
 
 El archivo de entrada debe llamarse chat.txt. 
 
