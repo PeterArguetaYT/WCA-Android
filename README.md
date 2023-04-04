@@ -1,6 +1,14 @@
 # WCA
 
-## Programa que permite analizar la conversación de whatsapp.
+## Programa en Python que permite analizar la conversación de whatsapp.
+
+
+##Bibliotecas##
+
+´´´
+pandas, wordcloud, re
+´´´
+
 
 El archivo de entrada debe llamarse chat.txt, este debe de exportarlo desde el chat que quiere analizar. 
 
