@@ -2,27 +2,22 @@
 
 ## Programa que permite analizar la conversación de whatsapp.
 
-El archivo de entrada debe llamarse chat.txt. 
+El archivo de entrada debe llamarse chat.txt, este debe de exportarlo desde el chat que quiere analizar. 
 
 Las graficas que genera este programa son: 
 
-#Mensajes enviados por cada usuario
+### Mensajes enviados por cada usuario
 
 
 ![!mensajes_enviados_por usuario](https://github.com/PeterArguetaYT/WCA-Android/raw/main/01_msj_enviados_usuario.png)
 
 
-#Mapa de palabras
+### Mapa de palabras
 
-!mapa_palabras
+### Mensajes enviados por semana
 
-#Mensajes enviados por semana
-!3(https://github.com/PeterArguetaYT/WCA/blob/main/03_msj_enviados_por_semana.png)
-#Hora de los mensajes
-!4(https://github.com/PeterArguetaYT/WCA/blob/main/04_hora_de_los_msj.png)
+### Hora de los mensajes
 
-#Multimedia enviada
-!5(https://github.com/PeterArguetaYT/WCA/blob/main/05_multimedia.png)
+### Multimedia enviada
 
-#Multimedia enviada
-!6(https://github.com/PeterArguetaYT/WCA/blob/main/06_promedio_msj_diarios.png)
+#### Promedio de mensajes diarios
